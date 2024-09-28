@@ -12,7 +12,7 @@ def husvet():
         e = (2*b + 4*c + 6*d + n) % 7
     if (d +e) < 10:
         nap1 = d + e + 22
-        print("Húsvét: Március"+str(nap1)+". napjára esik.")
+    print("Húsvét: Március"+str(nap1)+". napjára esik.")
     else:
 
          nap2 = d + e - 9
@@ -22,5 +22,5 @@ def husvet():
 
          elif nap2 == 26 and (d == 28) and (e == 6) and (a > 10):
                nap2 = 18
-        print("Húvét: április"+str(nap2) +". napjára esik.") 
+    print("Húvét: április"+str(nap2)+". napjára esik.")
 
